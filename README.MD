@@ -8,8 +8,8 @@ The custom [AndroidShellRenderer](https://github.com/mhrastegari/RemoveMauiNavBa
 
 ### Before (Labels always visible)
 
-![Before](https://github.com/mhrastegari/RemoveMauiNavBarTitle/blob/main/images/before.png)
+![Before](https://github.com/mhrastegari/RemoveMauiNavBarTitle/blob/main/before.png)
 
 ### After (Labels hidden if no titles)
 
-![After](https://github.com/mhrastegari/RemoveMauiNavBarTitle/blob/main/images/after.png)
+![After](https://github.com/mhrastegari/RemoveMauiNavBarTitle/blob/main/after.png)

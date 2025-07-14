@@ -4,11 +4,14 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:RemoveMauiNavBarTitle"
-    Title="RemoveMauiNavBarTitle">
+    Title="RemoveMauiNavBarTitle"
+    Shell.NavBarIsVisible="True"
+    Shell.TabBarBackgroundColor="#FF6200EE"
+    Shell.TabBarUnselectedColor="#FFBB86FC">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Icon="dotnet_bot.png" />
+        <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" Icon="dotnet_bot.png" />
+    </TabBar>
 
 </Shell>

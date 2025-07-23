@@ -19,6 +19,10 @@ public static class MauiProgram
 #if ANDROID
 				handlers.AddHandler(typeof(Shell), typeof(Platforms.Android.Renderers.AndroidShellRenderer));
 #endif
+
+#if IOS
+				handlers.AddHandler(typeof(Shell), typeof(Platforms.iOS.Renderers.iOSShellRenderer));
+#endif
 			});
 
 #if DEBUG
